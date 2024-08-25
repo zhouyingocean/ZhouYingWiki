@@ -80,7 +80,9 @@ Git Bash输入命令：**ssh -T git@github.com==**，按提示输入yes显示以
 >git add --all //添加当前目录下的所以文件
 >git commit -m "first commit" //提交日志
 >git remote add origin git@github.com:zhouyingocean/ZhouYingWiki.git     //这里替换成自己的库
->git push -u origin main //推送到远程仓库
+>git push -u origin master  //推送到远程仓库分支master
 
-
+显示以下信息即为推送成功
+![[Pasted image 20240825142347.png]]
+## 可能会遇到的问题
 

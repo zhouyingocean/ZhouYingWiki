@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#这里替换成自己的库",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -163,8 +162,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a8ad1e14f81102e3",
+  "active": "17e3c3b3b4b5ef00",
   "lastOpenFiles": [
+    "个人知识管理工作流/assets/Pasted image 20240825142347.png",
+    "个人知识管理工作流/assets/Pasted image 20240825141810.png",
+    "个人知识管理工作流/assets/Pasted image 20240825140558.png",
     "个人知识管理工作流/assets/Pasted image 20240825135351.png",
     "个人知识管理工作流/assets/Pasted image 20240825135219.png",
     "个人知识管理工作流/assets/Pasted image 20240825135056.png",
@@ -176,9 +178,6 @@
     "个人知识管理工作流/assets/Pasted image 20240825120417.png",
     "个人知识管理工作流/assets/Pasted image 20240825113814.png",
     "个人知识管理工作流/assets/Pasted image 20240825112610.png",
-    "个人知识管理工作流/assets/Pasted image 20240825112031.png",
-    "个人知识管理工作流/assets/Pasted image 20240825111133.png",
-    "个人知识管理工作流/assets/Pasted image 20240825105940.png",
     "个人知识管理工作流/Obsidian安装.md",
     "Unity/一些教程、经验文章备份",
     "Unity/新建文件夹",
