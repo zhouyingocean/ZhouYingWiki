@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "afc25d1bc50e9aba",
+    "type": "split",
+    "children": [
+      {
+        "id": "579e019b1f93ae9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0ea0b5c746c909b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "个人知识管理工作流/Obsidian笔记同步Github仓库.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "631291356bfc57f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "b511ff64794ec07d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7251e4425fba48ff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a8ad1e14f81102e3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#这里替换成自己的库",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac01f5b132c55ea9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "45381ab161fcef31",
+    "type": "split",
+    "children": [
+      {
+        "id": "65ae35df34a8993b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53dea3853423367c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "个人知识管理工作流/Obsidian笔记同步Github仓库.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fe75ad51e6240be3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "个人知识管理工作流/Obsidian笔记同步Github仓库.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4282d157f964aedb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8d5514d4c8adedce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "个人知识管理工作流/Obsidian笔记同步Github仓库.md"
+              }
+            }
+          },
+          {
+            "id": "52d80eeb9abaaa26",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "17e3c3b3b4b5ef00",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 404.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "a8ad1e14f81102e3",
+  "lastOpenFiles": [
+    "个人知识管理工作流/assets/Pasted image 20240825135351.png",
+    "个人知识管理工作流/assets/Pasted image 20240825135219.png",
+    "个人知识管理工作流/assets/Pasted image 20240825135056.png",
+    "欢迎.md",
+    "个人知识管理工作流/使用xlog搭建个人博客Step by Step.md",
+    "个人知识管理工作流/Obsidian笔记同步Github仓库.md",
+    "个人知识管理工作流/assets/Pasted image 20240825123134.png",
+    "个人知识管理工作流/assets/Pasted image 20240825121804.png",
+    "个人知识管理工作流/assets/Pasted image 20240825120417.png",
+    "个人知识管理工作流/assets/Pasted image 20240825113814.png",
+    "个人知识管理工作流/assets/Pasted image 20240825112610.png",
+    "个人知识管理工作流/assets/Pasted image 20240825112031.png",
+    "个人知识管理工作流/assets/Pasted image 20240825111133.png",
+    "个人知识管理工作流/assets/Pasted image 20240825105940.png",
+    "个人知识管理工作流/Obsidian安装.md",
+    "Unity/一些教程、经验文章备份",
+    "Unity/新建文件夹",
+    "Unity",
+    "新建文件夹",
+    "个人知识管理工作流/MediaFile/blogging-4812375_640.jpg.crdownload",
+    "个人知识管理工作流/MediaFile/mind-544404_640.webp.crdownload",
+    "个人知识管理工作流/assets",
+    "个人知识管理工作流/1ebc85993b6d44a09820319a24c332f8.png.crdownload",
+    "个人知识管理工作流/5062a364f28e4b12b72124cab9cf0e6a.png.crdownload",
+    "个人知识管理工作流/6359efbdd31b4a299c5277316a93d64e.png.crdownload",
+    "未命名.md"
+  ]
+}
