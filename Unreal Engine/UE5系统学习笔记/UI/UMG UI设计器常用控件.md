@@ -29,12 +29,21 @@ Panel一般用作一个父级容器，实现子元素间的对齐或分布操作
 ![Pasted image 20240823181139](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/Pasted%20image%2020240823181139.png)
 -  Safe Zone -- 安全区
 拉取平台安全区信息并添加填充。
+在非PC平台上经常会用到的一个容器，使用Safe Zone能保证其子控件不会被硬件遮挡。
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240826171346.png)
 
 -  Scale Box -- 缩放框
 用于以所需的大小放置内容，并对其进行缩放以满足该框所分配到的区域的大小限制。如果您需要对背景图像进行缩放以填充某个区域，但又不希望因为高宽比的不同而产生失真，或者如果您需要将某些文本自动调整放入某个区域，那么该控件可满足您的需求。
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240826175413.png)
+主要是使其子控件在拉伸时保持宽高比，或者在不同宽高比下不会弯曲
 -  Scroll Box -- 滚动框
 一组可任意滚动的控件。当需要在一张列表中显示 10-100 个控件时非常有用。该控件不支持虚拟化。
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240826183503.png)
+
+跟Unity的Scroll View 差不多，就是做表格组件有点麻烦。
 -  Size Box -- 尺寸容器
+可以限制子控件的大小，有两种情况：1,SizeBox在CanvasPanel下时，需勾选Size To Content才能控制子布局，这时自身的尺寸会失效；2，将SizeBox包裹在Overlay下，自身尺寸不会失效，同时也可以控制子布局，跟Unity的Layout  Element有点类似
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240826185508.png)
 
 -  Stack Box -- 堆栈框
 
