@@ -224,6 +224,8 @@ UE5提供了（Border、Button、Check Box、Image、Named Slot、Progress Bar�
 
 1. Border（边框）
 用于创建一个有边框的区域，可以包裹其他控件，通常用于视觉分隔
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240828100954.png)
+如图包裹一个Editable Text就相当于一个Text Box。
 
 | 常用属性         | 说明                    |
 | ------------ | --------------------- |
@@ -232,6 +234,8 @@ UE5提供了（Border、Button、Check Box、Image、Named Slot、Progress Bar�
 
 2. Botton （按钮）
 用户可以点击的控件，用于触发事件或动作，如提交表单、启动功能或导航至其他页面。
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240828101506.png)
+不同于Unity的Button，这里的按钮需要添加一个文本框作为文本显示，如果需要的时候。
 
 | 常用属性      | 说明         |
 | --------- | ---------- |
@@ -241,13 +245,17 @@ UE5提供了（Border、Button、Check Box、Image、Named Slot、Progress Bar�
 3. Check Box （复选框）
 一种允许用户选择或取消选择的控件，通常用于设置选项。
 
-| 常用属性                           | 说明               |
-| ------------------------------ | ---------------- |
-| Is Checked（是否选中）               | 复选框的当前状态，表示是否被选中 |
-| On Check State Changed（状态变化事件） | 当复选框状态改变时触发的事件   |
+| 常用属性             | 说明                                |
+| ---------------- | --------------------------------- |
+| Is Checked（是否选中） | 复选框的当前状态，表示是否被选中                  |
+| Check Box Type   | 复选框的显示类型（Check Box和Toggle Botton） |
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240828102633.png)
+跟Unity的UGUI差不多，只不过这里没有自带Text，需要再挂载。
 
 4. Image （图像）
 用于显示静态图片或纹理的控件，如展示图标、背景图案、游戏角色等各种图像元素。
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240828102958.png)
+跟Unity的Image一样，只不过UE的iamge可以实现一下更复杂的效果。
 
 | 常用属性    | 说明       |
 | ------- | -------- |
@@ -256,30 +264,37 @@ UE5提供了（Border、Button、Check Box、Image、Named Slot、Progress Bar�
 
 5. Named Slot（命名插槽）
 用于在用户界面布局中定义一个可插入其他控件的区域。这种控件通常用作容器的一部分，允许你动态地将不同的 UI 元素插入到指定的位置。
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240828104249.png)
+适用于组合UI，定义一个插槽，可以进行动态插入、删除、添加其他控件的一块区域，一般需要配合布局容器类的控件使用，这对于需要重复使用的控件来说十分方便。
 
-| 常用属性            | 说明              |
-| --------------- | --------------- |
-| Slot Name（插槽名称） | 用于标识和引用这个插槽的名称  |
-| Content（内容）     | 定义插入到命名插槽中的其他控件 |
+| 常用属性            | 说明                      |
+| --------------- | ----------------------- |
+| Slot Name（插槽名称） | 用于标识和引用这个插槽的名称          |
+| Visibility（可见性） | 控制插槽的可见性，可以设置为可见、隐藏或不可见 |
 
 6. Progress Bar（进度条）
 用于显示任务完成进度的 UI 控件。它通常用于展示长期操作的进度，比如下载、加载或任务完成情况。
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240828110936.png)
 
-| 常用属性          | 说明                            |
-| ------------- | ----------------------------- |
-| Percent（百分比）  | 当前进度条的完成百分比，范围从0.0到1.0        |
-| Marquee（动态效果） | 进度条是否显示动态的“滚动”效果，通常用于表示未知的进度。 |
+| 常用属性             | 说明                            |
+| ---------------- | ----------------------------- |
+| Percent（百分比）     | 当前进度条的完成百分比，范围从0.0到1.0        |
+| Is Marquee（动态效果） | 进度条是否显示动态的“滚动”效果，通常用于表示未知的进度。 |
 
 7. Radial Slider（圆形滑块）
 用于通过旋转滑块来调整一个值。它通常呈现为一个圆形的滑块，用户可以通过旋转控制器来改变值，这种控件在需要旋转输入或调整范围值时非常有用。
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240828111201.png)
+类似于汽车的仪表盘。
 
-| 常用属性          | 说明                                  |
-| ------------- | ----------------------------------- |
-| Value（值）      | 当前滑块的值，通常是一个范围内的数字（如 `0.0` 到 `1.0`） |
-| Min/Max Value | 滑块可调整的最小和最大值范围                      |
+| 常用属性       | 说明                                  |
+| ---------- | ----------------------------------- |
+| Value（值）   | 当前滑块的值，通常是一个范围内的数字（如 `0.0` 到 `1.0`） |
+| Value Tags | 定义文本标签所在值的位置                        |
 
 8. Rich Text Block（富文本块）
 是一种用于显示格式化文本的 UI 控件。它允许你在同一文本框中使用不同的字体、颜色、样式等，以实现复杂的文本格式化效果。
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240828112712.png)
+这里需要设置文本样式集并正确书写格式才能正常显示内容，这里先不做演示，后面实战再操作。
 
 | 常用属性             | 说明                |
 | ---------------- | ----------------- |
@@ -288,14 +303,16 @@ UE5提供了（Border、Button、Check Box、Image、Named Slot、Progress Bar�
 
 9. Slider（滑块）
 用于允许用户通过拖动滑块来调整一个值。滑块通常用于调整范围内的参数，例如音量、亮度或其他可调节设置
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240828112947.png)
 
-| 常用属性                   | 说明              |
-| ---------------------- | --------------- |
-| Orientation（方向）        | 滑块的方向，可以是水平或垂直。 |
-| Slider Thickness（滑块厚度） | 滑块条的厚度          |
+| 常用属性                | 说明              |
+| ------------------- | --------------- |
+| Orientation（方向）     | 滑块的方向，可以是水平或垂直。 |
+| Bar Thickness（滑块厚度） | 滑块条的厚度          |
 
 10. Text（文本）
 用于在用户界面中显示静态文本。它是最基本的 UI 控件之一，适用于展示各种信息，如标签、说明、提示等
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240828113432.png)
 
 | 常用属性              | 说明               |
 | ----------------- | ---------------- |
@@ -303,3 +320,13 @@ UE5提供了（Border、Button、Check Box、Image、Named Slot、Progress Bar�
 | Font（字体）          | 控制文本的字体类型、大小和样式。 |
 
 # 用户创建控件
+
+就是开发者自己创建的UI控件都会在这里显示，类似于Unity里面的UI预制体，可重复使用。用户可以创建自定义控件来扩展和定制 UI 元素。这些控件可以是简单的 UI 组件，或者是复杂的自定义控件，用于满足特定的需求。
+
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240828114144.png)
+
+比如UE的Button不提供文本的显示，那不可能每次做一个Button都要去拖一个文本框显示，这时候就需要提前做好一个可复用的Button按钮，这样子无论是在制作其他控件时还是在运行时动态创建时，只要一需要就能获取并使用。
+
+# 总结
+
+目前来说，只是初步使用了一下UMG的常用控件，可能是习惯了Unity开发UI的流程，感觉UE搭建UI的流程不太好用，有点麻烦的样子。特别是摆放操作上比较不习惯，限制的东西有点多。应该是没有Unity的UGUI易于上手。不过UE的UMG 控件与蓝图集成之后，在复用性和自定义程度上应该是优于UGUI的，可能是目前两大引擎的定位和市场需求不太一样的原因吧。下一步进入项目实战上看看使用UE制作UI的工作流如何，说不定深入使用就会有不一样的感觉了。Let' Go。
