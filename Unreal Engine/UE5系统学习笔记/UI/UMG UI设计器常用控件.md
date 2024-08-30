@@ -46,7 +46,7 @@ Canvas Panel下的组件可以调整Anchors、Offsets、Alignment这些常用属
 
 4.  **Overlay**-- 覆盖容器
 允许多个组件重叠放置。
-于Unity 的UGUI（几乎每个UI组件都可以嵌套子组件），UE里面只有部分控件支持嵌套子控件，而且还是只能嵌套一个（像Button），如果需要嵌套组件，就需要使用Overlay。
+与Unity 的UGUI（几乎每个UI组件都可以嵌套子组件），UE里面只有部分控件支持嵌套子控件，而且还是只能嵌套一个（像Button），如果需要嵌套组件，就需要使用Overlay。
 ![Pasted image 20240823181139](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/Pasted%20image%2020240823181139.png)
 
 | 常用属性    | 说明                     |
