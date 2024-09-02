@@ -1,4 +1,4 @@
-﻿*unity毕设开发之将3d模型导出为适用于unity的FBX文件*
+*unity毕设开发之将3d模型导出为适用于unity的FBX文件*
 @[TOC](3dmax导出FBX格式)
 
 # 准备工作

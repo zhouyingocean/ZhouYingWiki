@@ -65,7 +65,8 @@ Git Bash输入命令：ssh -T git@github.com，按提示输入yes显示以下内
 ### Git插件配置
 
 1、打开Obsidian，进入设置 ->右侧边栏底部 第三方插件-> Git。
-![[Pasted image 20240825144403.png]]
+![Pasted image 20240825144403.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/Pasted%20image%2020240825144403.png)
+
 根据需要配置备份间隔、自动拉取等选项，每次你做了更改，Git会根据你设置的间隔自动备份，或者你可以点击工具栏上的Git图标手动备份。
 # 将知识库笔记Push到远程仓库
 
@@ -92,8 +93,7 @@ Git Bash输入命令：ssh -T git@github.com，按提示输入yes显示以下内
 ## 删除git仓库上的目录和文件
 
 1、可以看到我这里将.obsidian和欢迎.md全部误推送到仓库了，现在我要将它们从远程仓库删除。
-
-![[Pasted image 20240825150357.png]]
+![Pasted image 20240825150357.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/Pasted%20image%2020240825150357.png)
 
 - 删除远程目录
 使用命令：==git rm -r --cached .obsidian==
@@ -101,16 +101,19 @@ Git Bash输入命令：ssh -T git@github.com，按提示输入yes显示以下内
 使用命令：==git rm 欢迎.md --cached==
 2、提交更改并推送
 git commit:
-![[Pasted image 20240825152231.png]]
+![Pasted image 20240825152231.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/Pasted%20image%2020240825152231.png)
 
 git push:
-![[Pasted image 20240825152349.png]]
+![Pasted image 20240825152349.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/Pasted%20image%2020240825152349.png)
+
 可以看到仓库上已经删除了相关文件和目录：
-![[Pasted image 20240825152706.png]]
+![Pasted image 20240825152706.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/Pasted%20image%2020240825152706.png)
+
 
 ## 忽略不需要推送的目录和文件
 
 1、在笔记目录下新建文本文件，改名为==.gitignore==，在文件中添加需要忽略的文件目录如：.obsidian
 其他文件需要加斜杠”/ “才能识别。
-![[Pasted image 20240825154139.png]]
+![Pasted image 20240825154139.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/Pasted%20image%2020240825154139.png)
+
 这样在你之后的提交推送中都不会上传这些忽略的文件。
