@@ -1,3 +1,4 @@
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240908183053.png)
 
 协程是一种特殊类型的迭代器方法，允许你在多个帧之间分段执行代码。可以用来处理时间延迟、异步操作和顺序执行的任务，而不阻塞主线程。Unity协程的实现依赖于C#语言提供的迭代器相关的语言特性，所以想要弄清楚Unity协程的底层原理，必须先了解C#的迭代器的基本功能。
 

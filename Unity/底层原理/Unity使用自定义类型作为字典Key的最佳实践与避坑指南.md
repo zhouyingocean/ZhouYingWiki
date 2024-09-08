@@ -1,3 +1,4 @@
+![image.png](https://zhouyingwiki-1329003762.cos.ap-guangzhou.myqcloud.com/wiki-pictures/20240908182923.png)
 
 # 问题背景
 
@@ -9,13 +10,13 @@ private Dictionary<BusinessA, BusinessB> businessDic = new Dictionary<BusinessA,
 
 //对外提供查找方法，通过A从字典中找到B
  public BusinessB FindB(BusinessA a)
+{
+    if (businessDic.ContainsKey(a))
     {
-        if (businessDic.ContainsKey(a))
-        {
-            return businessDic[a];
-        }
-        return null;
+        return businessDic[a];
     }
+    return null;
+}
 ~~~
 
 因为项目是协同开发的，随着业务逻辑不断增加，在某些其他业务逻辑中对字典中的某些Key对象做了修改（BusinessA对象的数据不变），之后当我们再次想要通过该对象查找对应的BusniessB对象时，却发现返回null。当时我们整个开发组排查了好久才发现这个bug的原因。
